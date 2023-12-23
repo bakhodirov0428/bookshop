@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>SCSS STARTER</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper-left">
+            <div class="left-top">
+                <a href="./index.html" class="wrapper-left-logo" style="text-decoration: none;">
+                    BOOKshop
+                </a>
+    
+                <img src="./images/x-square-fill.svg" class="cancel-btn" alt="cancel-btn" width="40px">
+            </div>
+
+            <div class="wrapper-left-menu">
+                <h2 class="menu-title wrapper-left-logo">
+                    Filter
+                </h2>
+
+                <ul class="menu-lists">
+                    <li class="menu-item" id="all">All books</li>
+                    <li class="menu-item" id="expensive">Expensive</li>
+                    <li class="menu-item" id="cheep">Cheep</li>
+                    <li class="menu-item" id="middle">Middle</li>
+                </ul>
+
+                <input type="number" min="0" placeholder="0.000" class="filter-input">
+
+                <div class="menu-btns">
+                    <button class="min-button">min</button>
+                    <button class="max-button">max</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="wrapper-right">
+            <header class="header">
+                <div class="container header-container">
+                    <div class="header-actions">
+                        <img src="./images/list.svg" alt="hamburger" class="header-hamburger">
+                        <p class="header-actions-title">
+                            All books
+                        </p>
+                        <input type="text" min="0" placeholder="search" class="seach" id="search-input">
+                        <button class="search-button">search</button>
+                    </div>
+                    <p class="header-sum" id="headerSum">
+                        
+                    </p>
+                </div>
+            </header>
+            <main class="main">
+                <div class="cards">
+                    <!-- <div class="card">
+                        <h2 class="card-label menu-title">Books</h2>
+                        <div class="card-info">
+                            <h3 class="card-title">
+                                Umrning bir lahzasi!
+                            </h3>
+                            <p class="card-desc">
+                                Inson umir va hayot yo'liga bag'ishlanadi.
+                            </p>
+                            <p class="card-prize">
+                                Price : <span>20000</span> so'm
+                            </p>
+                        </div>
+                    </div> -->
+                </div>
+            </main>
+            <footer class="footer">
+            </footer>
+        </div>
+    </div>
+    <script src="./books.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
